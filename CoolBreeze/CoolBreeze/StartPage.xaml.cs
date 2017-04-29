@@ -29,5 +29,10 @@ namespace CoolBreeze
         {
             await Navigation.PushAsync(new ForecastPage());
         }
+
+        private async void ViewSubmitChallengeClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SubmissionPage());
+        }
     }
 }

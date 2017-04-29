@@ -20,6 +20,7 @@ namespace CoolBreeze.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+            Microsoft.Azure.Mobile.MobileCenter.Configure("06f45200-8ed8-431a-b59a-16002af1a869");
             LoadApplication(new App());
         }
     }
